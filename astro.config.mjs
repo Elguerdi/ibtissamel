@@ -25,7 +25,7 @@ export default defineConfig({
     }
   },
   renderers: ['@astrojs/renderer-react'],
-  site: 'https://itssofi.dev/',
+  base: '/Ibtissam',
   integrations: [mdx(), sitemap(), react(), purgecss({
     keyframes: false,
     safelist :{
