@@ -25,7 +25,7 @@ export default defineConfig({
     }
   },
   renderers: ['@astrojs/renderer-react'],
-  base: '/Ibtissam',
+  site: 'https://portfolio.github.io',
   integrations: [mdx(), sitemap(), react(), purgecss({
     keyframes: false,
     safelist :{
