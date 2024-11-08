@@ -1,5 +1,5 @@
 {
-  "name": "sofidev-portfolio-astro",
+  "name": "ibtissam-portfolio",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -7,9 +7,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "deploy": "astro build && npx astro preview"
-
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/mdx": "^3.1.9",
@@ -44,7 +42,4 @@
   ],
   "author": "SofiDev",
   "license": "MIT"
-  
 }
-
-
